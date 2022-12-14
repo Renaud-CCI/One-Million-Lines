@@ -1,0 +1,83 @@
+/* Vos customisations des classes de Bootstrap */
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Arvo', serif;
+}
+
+
+#home{
+    height: auto;
+    width: 100%;
+    background-image: url("../images/hero-image.jpg");
+    background-position: top;
+    background-size:cover;
+    
+}
+
+
+#back-icon{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 10;
+}
+
+#back-icon img{
+    width: 75%;
+}
+
+#back-icon.a-invisible{
+    opacity:0;
+    transition:all ease-in 0.5s;
+  }
+  
+#back-icon.a-visible{
+    opacity:1;
+  }
+
+footer{
+    background-color: rgb(231,76,60);
+    height: 150px;
+    padding: 8% 0 4% 10%;
+}
+
+.bg-orange{
+    background-color: rgb(231,76,60);
+    border: rgb(231,76,60);
+}
+
+.color-orange{
+    color: rgb(231,76,60);
+}
+
+.hr-custom{
+    border-bottom: solid 2px rgb(231,76,60);
+    width: 20%;
+    
+
+}
+
+.ico{
+    width: 15%;
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: black;
+    color: rgb(240,240,240);
+}
+
+
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
